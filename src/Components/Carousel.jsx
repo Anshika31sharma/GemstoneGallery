@@ -26,7 +26,7 @@ const Carousel = ({ children: slides, autoSlide, autoSlideInterval = 2000 }) => 
     <div className="overflow-hidden relative">
       <div className="flex transition-transform ease-out duration-500">
         {slides.map((slide, index) => (
-          <div key={index} style={{ flex: `0 0 100%`, display: `${curr === index ? 'block' : 'none'}` }}>
+          <div key={index} className="w-full flex-shrink-0" style={{ display: `${curr === index ? 'block' : 'none'}` }}>
             {slide}
           </div>
         ))}
@@ -39,7 +39,7 @@ const Carousel = ({ children: slides, autoSlide, autoSlideInterval = 2000 }) => 
           <ChevronRight />
         </button>
       </div>
-      <div className="absolute bottom-4 right-0 left-0">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
         <div className="flex items-center justify-center gap-2">
           {slides.map((_, i) => (
             <div

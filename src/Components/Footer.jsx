@@ -24,18 +24,29 @@ const Footer = () => {
             <a href="/refund-policy" className="block mb-2">Refund Policy</a>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-2 text-red-800">Contact</h3>
-            <a href="tel:123456789" className="block mb-2">
-              <img src="https://assets-global.website-files.com/651e567d9c211dc2a12830d5/65251d8c99875d9c1e808fb0_call-icon-footer.svg" alt="Call icon" loading="lazy" className="inline-block mr-2" />
-              +91 123456789
-            </a>
-            <a href="mailto:support@elda.com?subject=Hello" className="block mb-2">
-              <img src="https://assets-global.website-files.com/651e567d9c211dc2a12830d5/65251d8cbda598aae92cafc5_main-icon-footer.svg" alt="Mail Icon" loading="lazy" className="inline-block mr-2" />
-             Jewellery@gmail.com
-            </a>
-          </div>
+  <h3 className="text-xl font-bold mb-2 text-red-800">Contact</h3>
+  <a href="tel:123456789" className="block mb-2">
+    <img
+      src="https://assets-global.website-files.com/651e567d9c211dc2a12830d5/65251d8c99875d9c1e808fb0_call-icon-footer.svg"
+      alt="Call icon"
+      loading="lazy"
+      className="inline-block mr-2"
+    />
+    +91123456789
+  </a>
+  <a href="mailto:support@elda.com?subject=Hello" className="block mb-2">
+    <img
+      src="https://assets-global.website-files.com/651e567d9c211dc2a12830d5/65251d8cbda598aae92cafc5_main-icon-footer.svg"
+      alt="Mail Icon"
+      loading="lazy"
+      className="inline-block mr-2"
+    />
+    abc@gmail.com
+  </a>
+</div>
+
         </div>
-        <div className="text-center ">
+        <div className="text-center mt-5 ">
         <p className="text-sm">@2024 All rights Reserved</p>
         </div>
       </div>
