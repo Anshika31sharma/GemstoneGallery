@@ -1,5 +1,8 @@
 import React from "react";
-function Fingerring() {
+const Bracelets = ({ setActivePage }) => {
+  const handleTabClick = (page) => {
+    setActivePage(page);
+  };
   return (
     <div className="flex flex-wrap justify-center">
       <div
@@ -15,9 +18,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8b6a880c/images/hi-res/50D3B2BUMAA02_2.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Flowers Diamond Bracelet</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("bracelet1")}
+          >
+      Flower Diamond Bracelet
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -56,9 +62,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe42c4768/images/hi-res/501920BWVAA00_2.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Chain look Bracelet</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("bracelet2")}
+          >
+     Chain look Bracelet
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -97,9 +106,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa80bf5cf/images/hi-res/51D3B2BBRAA00_2.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Graceful Stamp Bracelet</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("bracelet3")}
+          >
+     Graceful Stamp Bracelet
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -138,9 +150,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwfc42bf48/images/hi-res/51D3B1BGPAA00_2.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Intricate Leafy Bracelet</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("bracelet4")}
+          >
+     Intricate Leafy Bracelet
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -169,4 +184,4 @@ function Fingerring() {
     </div>
   );
 }
-export default Fingerring;
+export default Bracelets;

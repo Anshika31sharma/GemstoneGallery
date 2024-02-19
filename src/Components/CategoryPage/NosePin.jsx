@@ -1,5 +1,8 @@
 import React from "react";
-function Fingerring() {
+const NosePins = ({ setActivePage }) => {
+  const handleTabClick = (page) => {
+    setActivePage(page);
+  };
   return (
     <div className="flex flex-wrap justify-center">
       <div
@@ -15,9 +18,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7c51ff96/images/hi-res/513817OAAAAAP3_1.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Classic radiant Gold Nath</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("nosepin1")}
+          >
+       Classic Radiant Gold Nath
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -56,9 +62,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe4bd42f3/images/hi-res/500063OCAAAC02_2.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Flowerbud Nosering</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("nosepin2")}
+          >
+      Flowerbud Nosering
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -97,9 +106,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa3172804/images/hi-res/513020OKJAAAP1_1.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Peacock Nath</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("nosepin3")}
+          >
+       Peacock Nath
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -138,9 +150,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa65fe344/images/hi-res/511619OBEAAAP3_1.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Kundan nose pin</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("nosepin4")}
+          >
+       Kundan Nosepin
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -169,4 +184,4 @@ function Fingerring() {
     </div>
   );
 }
-export default Fingerring;
+export default NosePins;

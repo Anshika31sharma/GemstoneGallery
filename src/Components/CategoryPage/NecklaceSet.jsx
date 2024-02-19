@@ -1,5 +1,8 @@
 import React from "react";
-function Fingerring() {
+const NecklaceSet = ({ setActivePage }) => {
+  const handleTabClick = (page) => {
+    setActivePage(page);
+  };
   return (
     <div className="flex flex-wrap justify-center">
       <div
@@ -15,9 +18,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2dbdbc62/images/hi-res/50D3B22QVAGA02_2.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Delicate Diamond Necklace Set</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("necklaceset1")}
+          >
+      Delicate Diamond Necklace Set
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -56,9 +62,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3756e376/images/hi-res/51D3B42MQABAP3_2.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Lotus Necklace Set</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("necklaceset2")}
+          >
+     Lotus Necklace Set
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -97,9 +106,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8ca21967/images/hi-res/51D3B12HDABA00_2.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Gleaming Gold Set</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("necklaceset3")}
+          >
+     Gleaming Gold Necklace Set
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -136,11 +148,17 @@ function Fingerring() {
             <img
               className="aspect-ratio-img aspect-ratio h-72  tile-image hover-image"
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc31a8c83/images/hi-res/5138182AZABAP1_2.jpg"
+              
+
+
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Charming Gold Necklace Set</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("necklaceset4")}
+          >
+      Charming Gold Necklace Set
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -166,8 +184,7 @@ function Fingerring() {
           </a>
         </div>
       </div>
-     
     </div>
   );
 }
-export default Fingerring;
+export default NecklaceSet;

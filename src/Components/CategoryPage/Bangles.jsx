@@ -1,5 +1,8 @@
 import React from "react";
-function Fingerring() {
+const Bangles = ({ setActivePage }) => {
+  const handleTabClick = (page) => {
+    setActivePage(page);
+  };
   return (
     <div className="flex flex-wrap justify-center">
       <div
@@ -15,9 +18,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2cc90bc0/images/hi-res/51D3B3VWY2A00_2.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Vibrant Enamel Bangle</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("bangle1")}
+          >
+    Vibrant Enamel Bangle
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -54,11 +60,15 @@ function Fingerring() {
             <img
               className="aspect-ratio-img aspect-ratio h-72  tile-image hover-image"
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw24f2c6b9/images/hi-res/51D3A1VSH2A00_2.jpg"
+            
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Classic Ethnic Bangle</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("bangle2")}
+          >
+    Classic Ethnic Bangle
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -97,9 +107,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw72f3a6be/images/hi-res/51D3B2VAX2A00_2.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Nature Inspired Bangle</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("bangle3")}
+          >
+   Nature Inspired Bangle
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -138,9 +151,12 @@ function Fingerring() {
               src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw347ed6ef/images/hi-res/51WSGKVFW2AP3_1.jpg"
             />
           </a>
-          <div className="product-name">
-            <h5 className="link">Ritzy Radiant Bangles</h5>
-          </div>
+          <button
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            onClick={() => handleTabClick("bangle4")}
+          >
+    Ritzy Radiant Bangle
+          </button>
           <a target="_self" href="" className="pricing-row">
             <div className="price-content">
               <div className="price">
@@ -169,4 +185,4 @@ function Fingerring() {
     </div>
   );
 }
-export default Fingerring;
+export default Bangles;
