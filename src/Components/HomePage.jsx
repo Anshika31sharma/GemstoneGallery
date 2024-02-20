@@ -8,7 +8,7 @@ const Homepage = ({ setActivePage }) => {
       <h1 className="mt-10 text-red-800 text-5xl font-medium">
         Shop by Category
       </h1>
-      <p className="text-xl mt-5">
+      <p className="text-2xl mt-5">
         Browse through your favorite categories. We've got them all!
       </p>
       <img

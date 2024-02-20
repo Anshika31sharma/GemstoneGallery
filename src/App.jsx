@@ -43,6 +43,9 @@ import Chain1 from "./Components/ProductDetails.jsx/Chains/Chain1";
 import Chain2 from "./Components/ProductDetails.jsx/Chains/Chain2";
 import Chain3 from "./Components/ProductDetails.jsx/Chains/Chain3";
 import Chain4 from "./Components/ProductDetails.jsx/Chains/Chain4";
+import ShoppingCart from "./Components/ProductDetails.jsx/Bangles/Cart";
+import { CartProvider } from "./Components/ProductDetails.jsx/Bangles/CartContext";
+
 function App() {
   const [activePage, setActivePage] = useState("home");
   const carouselSlides = [
@@ -55,6 +58,7 @@ function App() {
     setActivePage(page);
   };
   return (
+    <CartProvider>
     <div className="lg:flex lg:flex-col min-h-screen">
       <Navbar setActivePage={handlePageChange} />
       {activePage === "home" && (
@@ -112,9 +116,11 @@ function App() {
       {activePage === "chain2" && <Chain2/>}
       {activePage === "chain3" && <Chain3/>}
       {activePage === "chain4" && <Chain4/>}
+      {activePage === "cart" && <ShoppingCart />}
 
       <Footer />
     </div>
+    </CartProvider>
   );
 }
 export default App;

@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
+import { useCart } from "../Bangles/CartContext";
 
 function Bracelet4() {
-  return (
+  const { addToCart } = useCart();
+  const [isItemAdded, setItemAdded] = useState(false);
+
+  const handleAddToCart = () => {
+    addToCart({
+      id: "bangle1", 
+      name: "Vibrant Enamel Bangle",
+      price: 36449,
+      image: "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2cc90bc0/images/hi-res/51D3B3VWY2A00_2.jpg",
+   
+    });
+    setItemAdded(true);
+    window.alert("Item added to the cart!");
+  };
+return (
     <div className="flex">
       <div>
       <img class="d-block img-fluid aspect-ratio open-image-swiper h-96 w-96 ml-10 mt-10" id="myimage" src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwfc42bf48/images/hi-res/51D3B1BGPAA00_2.jpg" width="100%" height="100%" onerror="this.src='/on/demandware.static/-/Sites-Tanishq-site-catalog/default/v7e4151d8817101406b98615b73a8da6b6467c4c1/noimage/medium_missing.svg'" image-index="0" alt="Sophisticated Dainty Diamond Drop Earrings,,hi-res image number null" hi-res-url="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw58eb627c/images/hi-res/50D2FFDMKAGA09_1.jpg" itemprop="image"/>

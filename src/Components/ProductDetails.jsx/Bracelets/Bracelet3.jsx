@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
+import { useCart } from "../Bangles/CartContext";
 
 function Bracelet3() {
+  const { addToCart } = useCart();
+  const [isItemAdded, setItemAdded] = useState(false);
+
+  const handleAddToCart = () => {
+    addToCart({
+      id: "bracelet3", 
+      name: "Graceful Stamp Bracelet",
+      price: 36449,
+      image: "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa80bf5cf/images/hi-res/51D3B2BBRAA00_2.jpg"
+         
+    });
+    setItemAdded(true);
+    window.alert("Item added to the cart!");
+  };
   return (
     <div className="flex">
       <div>
@@ -8,6 +23,7 @@ function Bracelet3() {
           className="d-block img-fluid aspect-ratio open-image-swiper h-96 w-96 ml-10 mt-10"
           id="myimage"
           src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa80bf5cf/images/hi-res/51D3B2BBRAA00_2.jpg"
+         
           alt="Earring"
         />
       </div>
@@ -56,19 +72,42 @@ to
 </ul>
 </div>
 <div class="row cart-and-ipay flex space-x-5 mt-5">
-<div class="col-6 button-add">
-<input type="hidden" class="add-to-cart-url" value="/on/demandware.store/Sites-Tanishq-Site/en_IN/Cart-AddProduct"/>
-<button class="evgAddtoCart add-to-cart btn btn-lg btn-outline w-100 py-2 text-align-center add-to-cart-outline bg-red-800 hover:bg-red-950 text-white p-4 rounded-md " data-toggle="modal" data-target="#chooseBonusProductModal" data-pid="50d3b3dhuaga022bd000012" data-mpid="50D3B3DHUAGA02" data-max-qty="1" data-buttontype="addToCart">
-Add to Cart
-</button>
-</div>
-<div class="col-6 button-buy">
-<input type="hidden" class="add-to-cart-url" value="/on/demandware.store/Sites-Tanishq-Site/en_IN/Cart-AddProduct"/>
-<button class="add-to-cart btn btn-lg py-2 w-100 justify-content-center buy-now-outline bg-gray-200 p-4 rounded-md hover:text-white hover:bg-red-800" data-toggle="modal" data-pid="50d3b3dhuaga022bd000012" data-max-qty="1" data-buttontype="buyNow">
-Buy Now
-</button>
-</div>
-</div>
+            <div class="col-6 button-add">
+              <input
+                type="hidden"
+                class="add-to-cart-url"
+                value="/on/demandware.store/Sites-Tanishq-Site/en_IN/Cart-AddProduct"
+              />
+              <button
+                className="evgAddtoCart add-to-cart btn btn-lg btn-outline w-100 py-2 text-align-center add-to-cart-outline bg-red-800 hover:bg-red-950 text-white p-4 rounded-md "
+                data-toggle="modal"
+                data-target="#chooseBonusProductModal"
+                data-pid="50d3b3dhuaga022bd000012"
+                data-mpid="50D3B3DHUAGA02"
+                data-max-qty="1"
+                data-buttontype="addToCart"
+                onClick={handleAddToCart}
+              >
+                Add to Cart
+              </button>
+            </div>
+            <div class="col-6 button-buy">
+              <input
+                type="hidden"
+                class="add-to-cart-url"
+                value="/on/demandware.store/Sites-Tanishq-Site/en_IN/Cart-AddProduct"
+              />
+              <button
+                class="add-to-cart btn btn-lg py-2 w-100 justify-content-center buy-now-outline bg-gray-200 p-4 rounded-md hover:text-white hover:bg-red-800"
+                data-toggle="modal"
+                data-pid="50d3b3dhuaga022bd000012"
+                data-max-qty="1"
+                data-buttontype="buyNow"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
 
 </div>
       </div>

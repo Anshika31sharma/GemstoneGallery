@@ -1,6 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import { useCart } from "../Bangles/CartContext";
 
 function Earring3() {
+  const { addToCart } = useCart();
+  const [isItemAdded, setItemAdded] = useState(false);
+  const handleAddToCart = () => {
+    addToCart({
+      id: "earring3", 
+      name: "Split Delight Stud Earrings",
+      price: 36449,
+      image:"https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd59c5696/images/hi-res/50D3P2SAWABAP6_1.jpg?sw=640&sh=640"
+    });
+    setItemAdded(true);
+    window.alert("Item added to the cart!");
+  };
   return (
     <div className="flex">
       <div>
@@ -51,19 +64,42 @@ to
 </ul>
 </div>
 <div class="row cart-and-ipay flex space-x-5 mt-5">
-<div class="col-6 button-add">
-<input type="hidden" class="add-to-cart-url" value="/on/demandware.store/Sites-Tanishq-Site/en_IN/Cart-AddProduct"/>
-<button class="evgAddtoCart add-to-cart btn btn-lg btn-outline w-100 py-2 text-align-center add-to-cart-outline bg-red-800 hover:bg-red-950 text-white p-4 rounded-md " data-toggle="modal" data-target="#chooseBonusProductModal" data-pid="50d3b3dhuaga022bd000012" data-mpid="50D3B3DHUAGA02" data-max-qty="1" data-buttontype="addToCart">
-Add to Cart
-</button>
-</div>
-<div class="col-6 button-buy">
-<input type="hidden" class="add-to-cart-url" value="/on/demandware.store/Sites-Tanishq-Site/en_IN/Cart-AddProduct"/>
-<button class="add-to-cart btn btn-lg py-2 w-100 justify-content-center buy-now-outline bg-gray-200 p-4 rounded-md hover:text-white hover:bg-red-800" data-toggle="modal" data-pid="50d3b3dhuaga022bd000012" data-max-qty="1" data-buttontype="buyNow">
-Buy Now
-</button>
-</div>
-</div>
+            <div class="col-6 button-add">
+              <input
+                type="hidden"
+                class="add-to-cart-url"
+                value="/on/demandware.store/Sites-Tanishq-Site/en_IN/Cart-AddProduct"
+              />
+              <button
+                className="evgAddtoCart add-to-cart btn btn-lg btn-outline w-100 py-2 text-align-center add-to-cart-outline bg-red-800 hover:bg-red-950 text-white p-4 rounded-md "
+                data-toggle="modal"
+                data-target="#chooseBonusProductModal"
+                data-pid="50d3b3dhuaga022bd000012"
+                data-mpid="50D3B3DHUAGA02"
+                data-max-qty="1"
+                data-buttontype="addToCart"
+                onClick={handleAddToCart}
+              >
+                Add to Cart
+              </button>
+            </div>
+            <div class="col-6 button-buy">
+              <input
+                type="hidden"
+                class="add-to-cart-url"
+                value="/on/demandware.store/Sites-Tanishq-Site/en_IN/Cart-AddProduct"
+              />
+              <button
+                class="add-to-cart btn btn-lg py-2 w-100 justify-content-center buy-now-outline bg-gray-200 p-4 rounded-md hover:text-white hover:bg-red-800"
+                data-toggle="modal"
+                data-pid="50d3b3dhuaga022bd000012"
+                data-max-qty="1"
+                data-buttontype="buyNow"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
 
 </div>
       </div>
