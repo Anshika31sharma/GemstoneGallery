@@ -30,6 +30,7 @@ function Pendant1() {
         <h2 className="text-2xl font-bold">Pearl and Diamond Pendant</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
         A stunning pearl sits on a radial mesh pattern in this pendant, crafted in 18 karat rose gold, studded with diamonds.
+
 </div>
 <div class="prices mt-5">
 <span>

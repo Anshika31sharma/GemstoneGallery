@@ -30,6 +30,7 @@ function Bangle1() {
         <h2 className="text-2xl font-bold"> Vibrant Enamel Bangle</h2>
         <div className="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
           Abstract patterns of red and green enamel make a beautiful contrast against gold in this bangle crafted in 22 karat yellow gold.
+       
         </div>
         <div className="prices mt-5">
           <span>

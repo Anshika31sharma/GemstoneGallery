@@ -30,6 +30,7 @@ function Pendant3() {
         <h2 className="text-2xl font-bold">Charming Mesh Pendant</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
         Feel the beauty of nature with this floral mesh pendant, crafted in 18 karat rose gold, studded with pearls and diamonds
+
 </div>
 <div class="prices mt-5">
 <span>

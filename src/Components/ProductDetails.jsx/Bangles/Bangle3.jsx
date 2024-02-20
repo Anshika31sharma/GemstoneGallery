@@ -28,6 +28,7 @@ function Bangle3() {
         <h2 className="text-2xl font-bold">  Nature Inspired Bangle</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
         Inspired by the beauty of nature, this leaf and vines bangle is crafted in 22 karat yellow gold
+        
         </div>
 <div class="prices mt-5">
 <span>

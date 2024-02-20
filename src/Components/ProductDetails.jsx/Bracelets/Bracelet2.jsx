@@ -10,7 +10,8 @@ function Bracelet2() {
       id: "bracelet2", 
       name: "Vibrant Enamel Bangle",
       price: 36449,
-      image:"https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2cc90bc0/images/hi-res/51D3B3VWY2A00_2.jpg" 
+      image:"https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe42c4768/images/hi-res/501920BWVAA00_2.jpg"
+     
     });
     setItemAdded(true);
     window.alert("Item added to the cart!");
@@ -22,14 +23,14 @@ function Bracelet2() {
         <img
           className="d-block img-fluid aspect-ratio open-image-swiper h-96 w-96 ml-10 mt-10"
           id="myimage"
-          src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2cc90bc0/images/hi-res/51D3B3VWY2A00_2.jpg"
-          alt="Earring"
-        />
+          src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe42c4768/images/hi-res/501920BWVAA00_2.jpg"
+          />
       </div>
       <div className=" ml-20 mt-10">
         <h2 className="text-2xl font-bold">  Chain look Bracelet</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
         Keep your style simple but classy with this linked pattern figaro bracelet, crafted in 18 karat yellow and white gold
+
 </div>
 <div class="prices mt-5">
 <span>

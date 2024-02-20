@@ -6,11 +6,11 @@ function Necklaceset1() {
   const [isItemAdded, setItemAdded] = useState(false);
   const handleAddToCart = () => {
     addToCart({
-      id: "necklaceset1", 
+      id: "necklaceset1",
       name: "Delicate Diamond Necklace Set",
       price: 36449,
-      image:"https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2dbdbc62/images/hi-res/50D3B22QVAGA02_2.jpg"
-        
+      image:
+        "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2dbdbc62/images/hi-res/50D3B22QVAGA02_2.jpg",
     });
     setItemAdded(true);
     window.alert("Item added to the cart!");
@@ -22,54 +22,53 @@ function Necklaceset1() {
           className="d-block img-fluid aspect-ratio open-image-swiper h-96 w-96 ml-10 mt-10"
           id="myimage"
           src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2dbdbc62/images/hi-res/50D3B22QVAGA02_2.jpg"
-        
         />
       </div>
       <div className=" ml-20 mt-10">
         <h2 className="text-2xl font-bold">Delicate Diamond Necklace Set</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
-        Enchant everyone with the delicate beauty of this necklace set crafted in 18 karat rose gold, studded with diamonds. 
-</div>
-<div class="prices mt-5">
-<span>
-<span class="sales font-bold text-4xl ">
-<span class="value price-text evgProductPrice  " content="36,449">
-<label class="price-label text-black font-normal"> Offer Price</label>
-₹23,868
-</span>
-</span>
-<del class="text-decoration-none font-medium text-xl">
-<span class="strike-through list">
-<label> Price</label>
-<span class="value " content="38,367">
-<span class="sr-only">
-Price reduced from
-</span>
-₹25,125
-<span class="sr-only">
-to
-</span>
-</span>
-</span>
-</del>
-</span>
-<div class="col-12 mt-5">
-<ul class="list-group">
-<li class="d-flex align-items-center">
-<span class="svg-sprite purity-icon"></span>
-<p class="d-inline mb-0">Purity Guaranteed.</p>
-</li>
-<li class="d-flex align-items-center">
-<span class="svg-sprite exchange-icon"></span>
-<p class="d-inline mb-0">Exchange across all stores.</p>
-</li>
-<li class="d-flex align-items-center">
-<span class="svg-sprite shipping-icon"></span>
-<p class="d-inline mb-0">Free Shipping all across India</p>
-</li>
-</ul>
-</div>
-<div class="row cart-and-ipay flex space-x-5 mt-5">
+          Enchant everyone with the delicate beauty of this necklace set crafted
+          in 18 karat rose gold, studded with diamonds.
+        </div>
+        <div class="prices mt-5">
+          <span>
+            <span class="sales font-bold text-4xl ">
+              <span class="value price-text evgProductPrice  " content="36,449">
+                <label class="price-label text-black font-normal">
+                  {" "}
+                  Offer Price
+                </label>
+                ₹23,868
+              </span>
+            </span>
+            <del class="text-decoration-none font-medium text-xl">
+              <span class="strike-through list">
+                <label> Price</label>
+                <span class="value " content="38,367">
+                  <span class="sr-only">Price reduced from</span>
+                  ₹25,125
+                  <span class="sr-only">to</span>
+                </span>
+              </span>
+            </del>
+          </span>
+          <div class="col-12 mt-5">
+            <ul class="list-group">
+              <li class="d-flex align-items-center">
+                <span class="svg-sprite purity-icon"></span>
+                <p class="d-inline mb-0">Purity Guaranteed.</p>
+              </li>
+              <li class="d-flex align-items-center">
+                <span class="svg-sprite exchange-icon"></span>
+                <p class="d-inline mb-0">Exchange across all stores.</p>
+              </li>
+              <li class="d-flex align-items-center">
+                <span class="svg-sprite shipping-icon"></span>
+                <p class="d-inline mb-0">Free Shipping all across India</p>
+              </li>
+            </ul>
+          </div>
+          <div class="row cart-and-ipay flex space-x-5 mt-5">
             <div class="col-6 button-add">
               <input
                 type="hidden"
@@ -106,8 +105,7 @@ to
               </button>
             </div>
           </div>
-
-</div>
+        </div>
       </div>
     </div>
   );

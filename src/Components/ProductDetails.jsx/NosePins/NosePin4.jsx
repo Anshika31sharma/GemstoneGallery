@@ -30,6 +30,7 @@ function NosePin4() {
         <h2 className="text-2xl font-bold">  Kundan Nosepin</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
         Cast a spell of absolute enchantment when you adorn this handmade, filigree nathini, crafted in 22 karat yellow gold, with red stones, pearl drops and an antique finish
+
 </div>
 <div class="prices mt-5">
 <span>

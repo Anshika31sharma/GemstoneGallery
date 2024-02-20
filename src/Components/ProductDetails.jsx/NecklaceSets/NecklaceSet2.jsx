@@ -28,7 +28,8 @@ function Necklaceset2() {
       <div className=" ml-20 mt-10">
         <h2 className="text-2xl font-bold"> Lotus Necklace Set</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
-          
+        Enchant everyone with the delicate beauty of this necklace set crafted in 18 karat rose gold, studded with diamonds. 
+  
 </div>
 <div class="prices mt-5">
 <span>

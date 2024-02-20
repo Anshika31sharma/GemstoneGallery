@@ -30,6 +30,7 @@ function NosePin1() {
         <h2 className="text-2xl font-bold"> Classic Radiant Gold Nath</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
         Decorated with radiant stones as petals, this nathini has been masterfully crafted in 22 Karat Yellow Gold to fit all your special occasion needs.
+
 </div>
 <div class="prices mt-5">
 <span>

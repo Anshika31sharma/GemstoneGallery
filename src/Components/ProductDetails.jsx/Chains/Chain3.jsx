@@ -10,7 +10,6 @@ function Chain3() {
       name: "Charming  Gold Chain",
       price: 36449,
       image:"https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe6ab6951/images/hi-res/503520CARAE00_2.jpg"
-         
     });
     setItemAdded(true);
     window.alert("Item added to the cart!");

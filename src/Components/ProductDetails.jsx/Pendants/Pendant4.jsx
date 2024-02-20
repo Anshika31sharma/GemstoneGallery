@@ -30,6 +30,7 @@ function Pendant4() {
         <h2 className="text-2xl font-bold">Ritzy Radiant Pendant</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
   An unparalleled expression of elegance, this 18 karat yellow gold solitaire pendant celebrates the allure discovered in simplicity
+
 </div>
 <div class="prices mt-5">
 <span>

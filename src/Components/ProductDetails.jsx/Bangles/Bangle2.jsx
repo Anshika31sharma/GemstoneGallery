@@ -27,6 +27,7 @@ function Bangle2() {
         <h2 className="text-2xl font-bold">   Classic Ethnic Bangle</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
         The perfect accompaniment to your ethnic styles, this charming bangle is crafted in 22 karat yellow gold</div>
+
 <div class="prices mt-5">
 <span>
 <span class="sales font-bold text-4xl ">

@@ -30,6 +30,7 @@ function NosePin3() {
         <h2 className="text-2xl font-bold">Peacock Nath</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
         Accent the magnificence of your occasion ensemble with this peacock inspired nathini crafted in 22 karat yellow gold adorned with exuberant stones
+
 </div>
 <div class="prices mt-5">
 <span>

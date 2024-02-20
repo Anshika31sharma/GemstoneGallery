@@ -30,6 +30,7 @@ function Fingerring2() {
         <h2 className="text-2xl font-bold">Rose Gold Diamond Ring</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
         Accentuate your majestic beauty with this 18 Karat Rose Gold finger ring with diamonds in a leaf pattern for extra dazzle.
+
 </div>
 <div class="prices mt-5">
 <span>

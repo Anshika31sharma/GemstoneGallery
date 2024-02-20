@@ -30,6 +30,7 @@ function Fingerring1() {
         <h2 className="text-2xl font-bold">Glinting Circles Diamond Ring</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
         Tiny overlapping circles, encrusted with glinting diamonds form an elegant design in this ring crafted in 18 karat rose gold
+
 </div>
 <div class="prices mt-5">
 <span>

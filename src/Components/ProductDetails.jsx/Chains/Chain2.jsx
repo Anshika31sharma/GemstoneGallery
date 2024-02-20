@@ -29,6 +29,7 @@ function Chain2() {
         <h2 className="text-2xl font-bold">  Swirls Orbs Chain</h2>
         <div class="col-sm-12 mt-5 col-md-8 col-lg-12 pt-2 value content px-0 pt-lg-0">
         A simple accessory that adds a touch of dazzle to your style, this chain is crafted in 22 karat yellow gold
+
 </div>
 <div class="prices mt-5">
 <span>

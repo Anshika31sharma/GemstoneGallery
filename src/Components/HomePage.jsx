@@ -20,12 +20,12 @@ const Homepage = ({ setActivePage }) => {
         <div className="m-4">
           <img
             src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw47b1df4b/homepage/shopByCategory/fod-earrings.jpg"
-            className="card-img-top h-80 w-full transition-transform transform-gpu hover:scale-105"
+            className="card-img-top shadow-2xl h-80 w-full transition-transform transform-gpu hover:scale-105"
             alt="..."
             loading="lazy"
           />
           <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-2xl  "
             onClick={() => handleTabClick("earrings")}
           >
             Earrings
@@ -34,12 +34,12 @@ const Homepage = ({ setActivePage }) => {
         <div className="m-4">
           <img
             src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwfc4fb974/homepage/shopByCategory/fod-rings.jpg"
-            className="card-img-top h-80 w-full transition-transform transform-gpu hover:scale-105"
+            className="card-img-top h-80 shadow-2xl  w-full transition-transform transform-gpu hover:scale-105"
             alt="..."
             loading="lazy"
           />
           <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-2xl "
             onClick={() => handleTabClick("fingerring")}
           >
             Finger Rings
@@ -48,12 +48,12 @@ const Homepage = ({ setActivePage }) => {
         <div className="m-4">
           <img
             src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw3617b276/homepage/shopByCategory/fod-pendants.jpg"
-            className="card-img-top h-80 w-full transition-transform transform-gpu hover:scale-105"
+            className="card-img-top h-80 shadow-2xl  w-full transition-transform transform-gpu hover:scale-105"
             alt="..."
             loading="lazy"
           />
           <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-2xl "
             onClick={() => handleTabClick("pendants")}
           >
             Pendants
@@ -62,12 +62,12 @@ const Homepage = ({ setActivePage }) => {
         <div className="m-4">
           <img
             src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw0cb7b15f/homepage/shopByCategory/fod-nosepins.jpg"
-            className="card-img-top h-80 w-full transition-transform transform-gpu hover:scale-105"
+            className="card-img-top h-80 shadow-2xl  w-full transition-transform transform-gpu hover:scale-105"
             alt="..."
             loading="lazy"
           />
           <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-2xl "
             onClick={() => handleTabClick("nosepins")}
           >
             Nose Pins
@@ -76,12 +76,12 @@ const Homepage = ({ setActivePage }) => {
         <div className="m-4">
           <img
             src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw4dcf3d1d/homepage/shopByCategory/fod-bracelet.jpg"
-            className="card-img-top h-80 w-full transition-transform transform-gpu hover:scale-105"
+            className="card-img-top h-80 shadow-2xl  w-full transition-transform transform-gpu hover:scale-105"
             alt="..."
             loading="lazy"
           />
           <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-2xl "
             onClick={() => handleTabClick("bracelets")}
           >
             Bracelets
@@ -90,12 +90,12 @@ const Homepage = ({ setActivePage }) => {
         <div className="m-4">
           <img
             src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw66347a7d/homepage/shopByCategory/fod-necklace-set.jpg"
-            className="card-img-top h-80 w-full transition-transform transform-gpu hover:scale-105"
+            className="card-img-top h-80 shadow-2xl  w-full transition-transform transform-gpu hover:scale-105"
             alt="..."
             loading="lazy"
           />
           <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-2xl "
             onClick={() => handleTabClick("necklacesets")}
           >
             Necklace Sets
@@ -104,12 +104,12 @@ const Homepage = ({ setActivePage }) => {
         <div className="m-4">
           <img
             src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw7dbdbacf/homepage/shopByCategory/fod-bangle.jpg"
-            className="card-img-top h-80 w-full transition-transform transform-gpu hover:scale-105"
+            className="card-img-top h-80 shadow-2xl  w-full transition-transform transform-gpu hover:scale-105"
             alt="..."
             loading="lazy"
           />
           <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-2xl "
             onClick={() => handleTabClick("bangles")}
           >
             Bangles
@@ -118,12 +118,12 @@ const Homepage = ({ setActivePage }) => {
         <div className="m-4">
           <img
             src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwcbb3ebbb/homepage/shopByCategory/fod-chain.jpg"
-            className="card-img-top h-80 w-full transition-transform transform-gpu hover:scale-105"
+            className="card-img-top h-80 shadow-2xl  w-full transition-transform transform-gpu hover:scale-105"
             alt="..."
             loading="lazy"
           />
           <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-2xl "
             onClick={() => handleTabClick("chains")}
           >
             Chains

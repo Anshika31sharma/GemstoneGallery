@@ -5,180 +5,199 @@ const Chains = ({ setActivePage }) => {
   };
   return (
     <div className="flex flex-wrap justify-center">
-      <div
-        className="product-tile mb-4 sm:mb-4 md:mb-5 mt-10 ml-2 sm:ml-4 md:ml-6 lg:ml-10"
-        data-pid="50d3b3dhuaga02"
-        data-lowestvariantpid="50d3b3dhuaga022bd000012"
-        data-gtmdata='{"item_id":"50D3B3DHUAGA02","item_name":"Glinting Circles Diamond Ring","affiliation":"Tanishq Online store","coupon":"N/A","discount":0,"quantity":1,"price":36449,"currency":"INR","item_variant":"50d3b3dhuaga022bd000009|50d3b3dhuaga022bd000011|50d3b3dhuaga022bd000012|50d3b3dhuaga022bd000013","item_category":"Earrings","item_category2":"Women","item_category3":"Diamond Jewellery","item_category4":"out of stock","item_category5":"Yellow","item_brand":"Tanishq","item_list_id":"N/A","item_list_name":"N/A","stockStatus":"out of stock"}'
-      >
+     <div className="product-tile mb-4 sm:mb-4 md:mb-5 mt-10 ml-2 sm:ml-4 md:ml-6 lg:ml-10">
         <div className="image-container ">
-          <a className="tile-image-content " target="_self" href="">
-            <img
-              className="aspect-ratio-img aspect-ratio h-72  tile-image hover-image"
-              src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3083dc61/images/hi-res/504025CIKAA00_2.jpg"
+          <div className="relative  overflow-hidden group">
+            <div className="w-full transition-transform duration-500 ease-in-out group-hover:opacity-50 group-hover:translate-x-30">
+              <img
+                className=" h-72 object-cover  duration-500"
+                src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3083dc61/images/hi-res/504025CIKAA00_2.jpg"
             />
-          </a>
+            </div>
+            <div className="absolute top-0 left-0 h-72 w-72  bg-red-800 transition-transform duration-500 transform-origin-left transform -translate-x-full group-hover:translate-x-0">
+              <div className="center p-8 text-center ">
+                <p className="text-white mt-11 text-lg">
+                  {" "}
+                  Mesmerising abstract patterns come together to form this glamorous tassel chain crafted in 18 karat yellow gold
+
+                </p>
+              </div>
+            </div>
+          </div>
+
           <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            className=" hover:underline underline-offset-1 mt-5  text-red-800 text-2xl "
             onClick={() => handleTabClick("chain1")}
           >
-    Abstract Gold Chain
+       Abstract Gold Chain
           </button>
-          <a target="_self" href="" className="pricing-row">
-            <div className="price-content">
-              <div className="price">
-                <span className="range">
-                  <span>
-                    <span className="sales">
-                      <span className="value price-text " content="36,449">
-                        ₹ 23587
+          <div className="price-content">
+            <div className="price">
+              <span className="range">
+                <span>
+                  <span className="sales">
+                    <span className="value price-text " content="36,449">
+                      ₹ 36449
+                    </span>
+                  </span>
+                  <del className="text-decoration-none">
+                    <span className="strike-through list">
+                      <span className="value " content="null">
+                        <span className="sr-only">Price reduced from</span>₹
+                        38367 <span className="sr-only">to</span>
                       </span>
                     </span>
-                    <del className="text-decoration-none">
-                      <span className="strike-through list">
-                        <span className="value " content="null">
-                          <span className="sr-only">Price reduced from</span>₹ 25238
-                          <span className="sr-only">to</span>
-                        </span>
-                      </span>
-                    </del>
-                  </span>
+                  </del>
                 </span>
-              </div>
+              </span>
             </div>
-          </a>
+          </div>
         </div>
       </div>
-      <div
-        className="product-tile mb-4 sm:mb-4 md:mb-5 mt-10 ml-2 sm:ml-4 md:ml-6 lg:ml-10"
-        data-pid="50d3b3dhuaga02"
-        data-lowestvariantpid="50d3b3dhuaga022bd000012"
-        data-gtmdata='{"item_id":"50D3B3DHUAGA02","item_name":"Pearl and Diamond Ring","affiliation":"Tanishq Online store","coupon":"N/A","discount":0,"quantity":1,"price":36449,"currency":"INR","item_variant":"50d3b3dhuaga022bd000009|50d3b3dhuaga022bd000011|50d3b3dhuaga022bd000012|50d3b3dhuaga022bd000013","item_category":"Earrings","item_category2":"Women","item_category3":"Diamond Jewellery","item_category4":"out of stock","item_category5":"Yellow","item_brand":"Tanishq","item_list_id":"N/A","item_list_name":"N/A","stockStatus":"out of stock"}'
-      >
+      <div className="product-tile mb-4 sm:mb-4 md:mb-5 mt-10 ml-2 sm:ml-4 md:ml-6 lg:ml-10">
         <div className="image-container ">
-          <a className="tile-image-content " target="_self" href="">
-            <img
-              className="aspect-ratio-img aspect-ratio h-72  tile-image hover-image"
-              src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw5df35328/images/hi-res/504025CZDAA00_2.jpg"
-            />
-          </a>
+          <div className="relative  overflow-hidden group">
+            <div className="w-full transition-transform duration-500 ease-in-out group-hover:opacity-50 group-hover:translate-x-30">
+              <img
+                className=" h-72 object-cover  duration-500"
+                src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw5df35328/images/hi-res/504025CZDAA00_2.jpg"
+                />
+            </div>
+            <div className="absolute top-0 left-0 h-72 w-72  bg-red-800 transition-transform duration-500 transform-origin-left transform -translate-x-full group-hover:translate-x-0">
+              <div className="center p-8 text-center ">
+                <p className="text-white mt-11 text-lg">
+                  {" "}
+                  A simple accessory that adds a touch of dazzle to your style, this chain is crafted in 22 karat yellow gold
+
+                </p>
+              </div>
+            </div>
+          </div>
+
           <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            className=" hover:underline underline-offset-1 mt-5  text-red-800 text-2xl "
             onClick={() => handleTabClick("chain2")}
           >
-   Swirls Orbs Chain
+       Swirls Orbs  Chain
           </button>
-          <a target="_self" href="" className="pricing-row">
-            <div className="price-content">
-              <div className="price">
-                <span className="range">
-                  <span>
-                    <span className="sales">
-                      <span className="value price-text " content="36,449">
-                        ₹ 21587
+          <div className="price-content">
+            <div className="price">
+              <span className="range">
+                <span>
+                  <span className="sales">
+                    <span className="value price-text " content="36,449">
+                      ₹ 36449
+                    </span>
+                  </span>
+                  <del className="text-decoration-none">
+                    <span className="strike-through list">
+                      <span className="value " content="null">
+                        <span className="sr-only">Price reduced from</span>₹
+                        38367 <span className="sr-only">to</span>
                       </span>
                     </span>
-                    <del className="text-decoration-none">
-                      <span className="strike-through list">
-                        <span className="value " content="null">
-                          <span className="sr-only">Price reduced from</span>₹ 29238
-                          <span className="sr-only">to</span>
-                        </span>
-                      </span>
-                    </del>
-                  </span>
+                  </del>
                 </span>
-              </div>
+              </span>
             </div>
-          </a>
+          </div>
         </div>
       </div>
-      <div
-        className="product-tile mb-4 sm:mb-4 md:mb-5 mt-10 ml-2 sm:ml-4 md:ml-6 lg:ml-10"
-        data-pid="50d3b3dhuaga02"
-        data-lowestvariantpid="50d3b3dhuaga022bd000012"
-        data-gtmdata='{"item_id":"50D3B3DHUAGA02","item_name":"Glinting Circles Diamond Ring","affiliation":"Tanishq Online store","coupon":"N/A","discount":0,"quantity":1,"price":36449,"currency":"INR","item_variant":"50d3b3dhuaga022bd000009|50d3b3dhuaga022bd000011|50d3b3dhuaga022bd000012|50d3b3dhuaga022bd000013","item_category":"Earrings","item_category2":"Women","item_category3":"Diamond Jewellery","item_category4":"out of stock","item_category5":"Yellow","item_brand":"Tanishq","item_list_id":"N/A","item_list_name":"N/A","stockStatus":"out of stock"}'
-      >
+      <div className="product-tile mb-4 sm:mb-4 md:mb-5 mt-10 ml-2 sm:ml-4 md:ml-6 lg:ml-10">
         <div className="image-container ">
-          <a className="tile-image-content " target="_self" href="">
-            <img
-              className="aspect-ratio-img aspect-ratio h-72  tile-image hover-image"
-              src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe6ab6951/images/hi-res/503520CARAE00_2.jpg"
-            />
-          </a>
+          <div className="relative  overflow-hidden group">
+            <div className="w-full transition-transform duration-500 ease-in-out group-hover:opacity-50 group-hover:translate-x-30">
+              <img
+                className=" h-72 object-cover  duration-500"
+                src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe6ab6951/images/hi-res/503520CARAE00_2.jpg"
+                />
+            </div>
+            <div className="absolute top-0 left-0 h-72 w-72  bg-red-800 transition-transform duration-500 transform-origin-left transform -translate-x-full group-hover:translate-x-0">
+              <div className="center p-8 text-center ">
+                <p className="text-white mt-11 text-lg">
+                  {" "}
+                  Foxtail Chain Crafted in 22 Karat Yellow Gold
+                </p>
+              </div>
+            </div>
+          </div>
+
           <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
+            className=" hover:underline underline-offset-1 mt-5  text-red-800 text-2xl "
             onClick={() => handleTabClick("chain3")}
           >
-   Charming Gold Chain
+      Charming Gold Chain
           </button>
-          <a target="_self" href="" className="pricing-row">
-            <div className="price-content">
-              <div className="price">
-                <span className="range">
-                  <span>
-                    <span className="sales">
-                      <span className="value price-text " content="36,449">
-                        ₹ 18587
+          <div className="price-content">
+            <div className="price">
+              <span className="range">
+                <span>
+                  <span className="sales">
+                    <span className="value price-text " content="36,449">
+                      ₹ 36449
+                    </span>
+                  </span>
+                  <del className="text-decoration-none">
+                    <span className="strike-through list">
+                      <span className="value " content="null">
+                        <span className="sr-only">Price reduced from</span>₹
+                        38367 <span className="sr-only">to</span>
                       </span>
                     </span>
-                    <del className="text-decoration-none">
-                      <span className="strike-through list">
-                        <span className="value " content="null">
-                          <span className="sr-only">Price reduced from</span>₹ 25238
-                          <span className="sr-only">to</span>
-                        </span>
-                      </span>
-                    </del>
-                  </span>
+                  </del>
                 </span>
-              </div>
+              </span>
             </div>
-          </a>
+          </div>
         </div>
       </div>
-      <div
-        className="product-tile mb-4 sm:mb-4 md:mb-5 mt-10 ml-2 sm:ml-4 md:ml-6 lg:ml-10"
-        data-pid="50d3b3dhuaga02"
-        data-lowestvariantpid="50d3b3dhuaga022bd000012"
-        data-gtmdata='{"item_id":"50D3B3DHUAGA02","item_name":"Glinting Circles Diamond Ring","affiliation":"Tanishq Online store","coupon":"N/A","discount":0,"quantity":1,"price":36449,"currency":"INR","item_variant":"50d3b3dhuaga022bd000009|50d3b3dhuaga022bd000011|50d3b3dhuaga022bd000012|50d3b3dhuaga022bd000013","item_category":"Earrings","item_category2":"Women","item_category3":"Diamond Jewellery","item_category4":"out of stock","item_category5":"Yellow","item_brand":"Tanishq","item_list_id":"N/A","item_list_name":"N/A","stockStatus":"out of stock"}'
-      >
+      <div className="product-tile mb-4 sm:mb-4 md:mb-5 mt-10 ml-2 sm:ml-4 md:ml-6 lg:ml-10">
         <div className="image-container ">
-          <a className="tile-image-content " target="_self" href="">
-            <img
-              className="aspect-ratio-img aspect-ratio h-72  tile-image hover-image"
-              src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe8be77aa/images/hi-res/51F3JRGBDAA00_2.jpg"
-            />
-          </a>
-          <button
-            className=" hover:underline underline-offset-1 mt-5 text-red-800 text-xl "
-            onClick={() => handleTabClick("chain4")}
-          >
-    Lord Jagganath Chain
-          </button>
-          <a target="_self" href="" className="pricing-row">
-            <div className="price-content">
-              <div className="price">
-                <span className="range">
-                  <span>
-                    <span className="sales">
-                      <span className="value price-text " content="36,449">
-                        ₹ 24887
-                      </span>
-                    </span>
-                    <del className="text-decoration-none">
-                      <span className="strike-through list">
-                        <span className="value " content="null">
-                          <span className="sr-only">Price reduced from</span>₹ 30238
-                          <span className="sr-only">to</span>
-                        </span>
-                      </span>
-                    </del>
-                  </span>
-                </span>
+          <div className="relative  overflow-hidden group">
+            <div className="w-full transition-transform duration-500 ease-in-out group-hover:opacity-50 group-hover:translate-x-30">
+              <img
+                className=" h-72 object-cover  duration-500"
+                src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe8be77aa/images/hi-res/51F3JRGBDAA00_2.jpg"
+                />
+            </div>
+            <div className="absolute top-0 left-0 h-72 w-72  bg-red-800 transition-transform duration-500 transform-origin-left transform -translate-x-full group-hover:translate-x-0">
+              <div className="center p-8 text-center ">
+                <p className="text-white mt-11 text-lg">
+                  {" "}
+                  Red and black enamel contrasts with the radiance of gold in this Lord Jagannath pendant with chain, crafted in 22 karat yellow gold
+
+                </p>
               </div>
             </div>
-          </a>
+          </div>
+
+          <button
+            className=" hover:underline underline-offset-1 mt-5  text-red-800 text-2xl "
+            onClick={() => handleTabClick("chain4")}
+          >
+     Lord Jagganath Chain
+          </button>
+          <div className="price-content">
+            <div className="price">
+              <span className="range">
+                <span>
+                  <span className="sales">
+                    <span className="value price-text " content="36,449">
+                      ₹ 36449
+                    </span>
+                  </span>
+                  <del className="text-decoration-none">
+                    <span className="strike-through list">
+                      <span className="value " content="null">
+                        <span className="sr-only">Price reduced from</span>₹
+                        38367 <span className="sr-only">to</span>
+                      </span>
+                    </span>
+                  </del>
+                </span>
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
