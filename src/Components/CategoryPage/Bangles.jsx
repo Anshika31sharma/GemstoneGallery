@@ -12,7 +12,8 @@ const Bangles = ({ setActivePage }) => {
               <img
                 className=" h-72 object-cover  duration-500"
                 src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2cc90bc0/images/hi-res/51D3B3VWY2A00_2.jpg"
-                />
+               
+               />
             </div>
             <div className="absolute top-0 left-0 h-72 w-72  bg-red-800 transition-transform duration-500 transform-origin-left transform -translate-x-full group-hover:translate-x-0">
               <div className="center p-8 text-center ">

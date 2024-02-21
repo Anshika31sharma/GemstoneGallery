@@ -61,7 +61,8 @@ const Bracelets = ({ setActivePage }) => {
               <img
                 className=" h-72 object-cover  duration-500"
                 src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe42c4768/images/hi-res/501920BWVAA00_2.jpg"
-                />
+              
+              />
             </div>
             <div className="absolute top-0 left-0 h-72 w-72  bg-red-800 transition-transform duration-500 transform-origin-left transform -translate-x-full group-hover:translate-x-0">
               <div className="center p-8 text-center ">
@@ -76,7 +77,7 @@ const Bracelets = ({ setActivePage }) => {
 
           <button
             className=" hover:underline underline-offset-1 mt-5  text-red-800 text-2xl "
-            onClick={() => handleTabClick("bracelet1")}
+            onClick={() => handleTabClick("bracelet2")}
           >
          Chain look Bracelet
           </button>
@@ -109,7 +110,8 @@ const Bracelets = ({ setActivePage }) => {
             <div className="w-full transition-transform duration-500 ease-in-out group-hover:opacity-50 group-hover:translate-x-30">
               <img
                 className=" h-72 object-cover  duration-500"
-                src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe42c4768/images/hi-res/501920BWVAA00_2.jpg"
+                src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa80bf5cf/images/hi-res/51D3B2BBRAA00_2.jpg"
+         
                 />
             </div>
             <div className="absolute top-0 left-0 h-72 w-72  bg-red-800 transition-transform duration-500 transform-origin-left transform -translate-x-full group-hover:translate-x-0">
@@ -125,7 +127,7 @@ const Bracelets = ({ setActivePage }) => {
 
           <button
             className=" hover:underline underline-offset-1 mt-5  text-red-800 text-2xl "
-            onClick={() => handleTabClick("bracelet1")}
+            onClick={() => handleTabClick("bracelet3")}
           >
       Graceful Stamp Bracelet
           </button>
@@ -174,7 +176,7 @@ const Bracelets = ({ setActivePage }) => {
 
           <button
             className=" hover:underline underline-offset-1 mt-5  text-red-800 text-2xl "
-            onClick={() => handleTabClick("bracelet1")}
+            onClick={() => handleTabClick("bracelet4")}
           >
      Intricate Leafy Bracelet
           </button>

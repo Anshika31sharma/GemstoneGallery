@@ -27,7 +27,7 @@ const NosePins = ({ setActivePage }) => {
 
           <button
             className=" hover:underline underline-offset-1 mt-5  text-red-800 text-2xl "
-            onClick={() => handleTabClick("earring1")}
+            onClick={() => handleTabClick("nosepin1")}
           >
         Classic Radiant Gold Nath
           </button>
@@ -76,7 +76,7 @@ const NosePins = ({ setActivePage }) => {
 
           <button
             className=" hover:underline underline-offset-1 mt-5  text-red-800 text-2xl "
-            onClick={() => handleTabClick("earring1")}
+            onClick={() => handleTabClick("nosepin2")}
           >
         Flowerbud Nosering
           </button>
@@ -125,7 +125,7 @@ const NosePins = ({ setActivePage }) => {
 
           <button
             className=" hover:underline underline-offset-1 mt-5  text-red-800 text-2xl "
-            onClick={() => handleTabClick("earring1")}
+            onClick={() => handleTabClick("nosepin3")}
           >
        Peacock Nath
           </button>
@@ -174,7 +174,7 @@ const NosePins = ({ setActivePage }) => {
 
           <button
             className=" hover:underline underline-offset-1 mt-5  text-red-800 text-2xl "
-            onClick={() => handleTabClick("earring1")}
+            onClick={() => handleTabClick("nosepin4")}
           >
     Kundan Nosepin
           </button>

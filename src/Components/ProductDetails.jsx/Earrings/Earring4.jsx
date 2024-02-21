@@ -20,18 +20,15 @@ function Earring4() {
     <div className="flex flex-col md:flex-row items-center md:items-start">
       <div>
         <img
-          className=" lg:block ml-10 mt-10 w-full h-auto aspect-ratio shadow-lg lg:w-96 lg:h-96 mx-auto"
+          className="lg:block ml-5 mt-10 w-64  h-auto  aspect-ratio shadow-lg lg:w-96 lg:h-96 mx-auto"
           id="myimage"
           src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw40c38f79/images/hi-res/50LB21DAKABA34_1.jpg?sw=640&sh=640"
-          width="100%"
-          height="100%"
-          onError="this.src='/on/demandware.static/-/Sites-Tanishq-site-catalog/default/v7e4151d8817101406b98615b73a8da6b6467c4c1/noimage/medium_missing.svg'"
           alt="The Lightness of Being"
         />
       </div>
       <div className="mx-4 mt-4 md:mt-0 md:ml-10">
         <h2 className="text-3xl font-bold mt-10"> The Lightness of Being</h2>
-        <div className="text-lg  mt-2 md:mt-5">
+        <div className="text-xl mt-2 md:mt-5">
           Beautiful chandelier earrings
         </div>
         <div className="mt-5">
