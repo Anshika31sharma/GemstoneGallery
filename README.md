@@ -1,6 +1,6 @@
-# Jewelry Web Application
+# Jewellery Web Application
 
-Welcome to the Jewelry Web Application repository! This web application is designed to showcase and manage a collection of exquisite jewelry pieces.
+Welcome to the jewellery Web Application repository! This web application is designed to showcase and manage a collection of exquisite jewellry pieces.
 
 ## Table of Contents
 
@@ -46,9 +46,9 @@ Welcome to the Jewelry Web Application repository! This web application is desig
 
 ## Getting Started
    
-   git clone git@github.com:Anshika31sharma/GemstoneGallery.git
-   cd jewelry-web
-   npm run dev
+   - git clone git@github.com:Anshika31sharma/GemstoneGallery.git
+   - cd jewelry-web
+   - npm run dev
 
 
 ## Contributing
