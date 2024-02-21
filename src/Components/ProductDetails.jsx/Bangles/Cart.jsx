@@ -6,7 +6,7 @@ function ShoppingCart() {
 
   return (
     <div >
-      <h2 className=" text-xl font-bold ml-5 mt-5">Your Cart</h2>
+      <h2 className=" text-3xl font-bold ml-5 mt-5">Your Cart</h2>
       <div className=" flex">
         {cartItems.map((item) => (
           <li key={item.id}>

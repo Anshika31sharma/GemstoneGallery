@@ -15,9 +15,9 @@ const Navbar = ({ setActivePage }) => {
           Accessories Page
         </h1>
 
-        <div className="md:flex items-center">
+        <div className="md:flex items-center ">
           <button
-            className="border-none bg-red-800 text-white text-xl md:text-base w-20 md:w-auto font-medium transition-all duration-500 cursor-pointer inline-block relative box-border rounded-full shadow-md hover:pl-4 hover:pr-8"
+            className="border-none bg-red-800 text-white text-xl md:text-base  font-medium transition-all duration-500 cursor-pointer w-16 inline-block relative box-border rounded-full shadow-md hover:pl-4 hover:pr-8"
             onClick={() => handleTabClick("cart")}
           >
             Cart
